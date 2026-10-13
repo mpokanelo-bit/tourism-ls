@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover Lesotho tourism destinations, activities, accommodation and travel information.">
+  <title>Gallery | Discover Lesotho</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top">
+  <div class="container">
+   
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav align-items-lg-center">
+        <li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="./about.html">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="./destinations.html">Destinations</a></li>
+        <li class="nav-item"><a class="nav-link active" aria-current="page" href="./gallery.html">Gallery</a></li>
+        <li class="nav-item"><a class="nav-link" href="./contact.html">Contact & Booking</a></li>
+      </ul>
+      
+    </div>
+  </div>
+</nav>
+</header>
+<main>
+
+<section class="page-banner">
+  <div class="container">
+    <h1>Photo Gallery</h1>
+    <p class="lead mb-0">Explore a visual collection of Lesotho destinations.</p>
+  </div>
+</section>
+
+<section class="section-padding">
+  <div class="container">
+<div class="row g-4">
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/maletsunyane.jpg" alt="Maletsunyane Falls" data-title="Maletsunyane Falls"></div>
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/katse-dam.jpg" alt="Katse Dam" data-title="Katse Dam"></div>
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/thaba-bosiu.jpg" alt="Thaba-Bosiu" data-title="Thaba-Bosiu"></div>
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/afriski.jpg" alt="Afriski" data-title="Afriski Mountain Resort"></div>
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/bokong.webp" alt="Bokong Nature Reserve" data-title="Bokong Nature Reserve"></div>
+      <div class="col-6 col-md-4"><img class="gallery-thumb" src="images/sehlabathebe.jpg" alt="Sehlabathebe" data-title="Sehlabathebe National Park"></div>
+    </div>
+  </div>
+</section>
+
+<div class="modal fade" id="galleryModal" tabindex="-1" aria-labelledby="modalTitle">
+  <div class="modal-dialog modal-xl modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 class="modal-title fs-5" id="modalTitle">Gallery image</h2>
+        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body text-center">
+        <img id="modalImage" src="" alt="">
+      </div>
+      <div class="modal-footer justify-content-between">
+        <button id="previousImage" class="btn btn-outline-light">Previous</button>
+        <button id="nextImage" class="btn btn-tourism">Next</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+<footer>
+  <div class="container">
+    <div class="row g-4">
+      <div class="col-lg-5">
+        <h4>Discover Lesotho</h4>
+        <p>Explore the Mountain Kingdom through its landscapes, culture, adventures and unforgettable destinations.</p>
+      </div>
+      <div class="col-sm-6 col-lg-3">
+      </div>
+      <div class="col-sm-6 col-lg-4">
+        <h5>Travel Tip</h5>
+        <p>Respect local communities, protect the environment and keep your travel documents safe.</p>
+      </div>
+    </div>
+    <div class="footer-bottom text-center">
+      <small>&copy; <span class="current-year"></span> Discover Lesotho. Student tourism website project.</small>
+    </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
